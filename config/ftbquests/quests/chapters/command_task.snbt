@@ -1,0 +1,1987 @@
+{
+	autofocus_id: "7833EB47977CC4BF"
+	default_hide_dependency_lines: false
+	default_quest_shape: "octagon"
+	filename: "command_task"
+	group: ""
+	id: "777F99B837A54F7D"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			hide_details_until_startable: true
+			id: "7833EB47977CC4BF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 10000"
+					icon: "createdeco:gold_coinstack"
+					id: "03AC23279F343836"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: "createdeco:gold_coinstack"
+					id: "706F014D8C6029D5"
+					title: "900k"
+					type: "custom"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "1331EF5EEF33ADBC"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			shape: "octagon"
+			tasks: [{
+				id: "604F022F218C9E74"
+				max_input: 100L
+				type: "forge_energy"
+				value: 900000L
+			}]
+			x: -5.0d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			id: "7714FF20C3E51BC9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1001000"
+					id: "46E598F83862F706"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "79DE73494213C3FD"
+					title: "1.1M"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "28E766DF46976D26"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 100L
+				icon: "biggerreactors:uranium_ingot"
+				id: "2EEC1908681CC453"
+				item: "biggerreactors:uranium_ingot"
+				only_from_crafting: true
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "4FC4D3DA9EBA24C6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 8193000"
+					id: "514D2545945F9A49"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "4EDCD40B9E950994"
+					title: "8.193M"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "26FCFD0479C5C0AF"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "0B066F16AFDA13B3"
+				item: "minecraft:diamond"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "0DA5463755D07659"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 600000"
+					id: "4693C45F444C592A"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "20D17711F457FA9B"
+					title: "600k"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "5FFC7F72E56DE529"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "15B79A99CAFB0EC3"
+				item: "minecraft:netherite_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "26D685D863495ED8"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1035000"
+					id: "68AEF57AE413F029"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "55EC4AB6440F9DC7"
+					title: "1.3M"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "289FB56EB0E2E586"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 1500L
+				id: "32AB0AE9A43491CC"
+				item: "northstar:polished_amethyst"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -6.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			id: "6594005D40F719AA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 1920000"
+					id: "13E963A6097F3AE3"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "27712971624D5418"
+					title: "1.9M"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "16DBB2D489F48C0E"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 12000L
+				id: "395BA8D76F7B344D"
+				item: "minecraft:quartz"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -5.0d
+			y: -7.5d
+		}
+		{
+			can_repeat: true
+			id: "0E89EC07EF0C50F1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 2100000"
+					id: "725007A15D66CC43"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "28939CF5C647D343"
+					title: "2.1M"
+					type: "custom"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "35C3F7554D021858"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 1000L
+				id: "63E3E8DB70DEAECE"
+				item: "minecraft:gold_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -7.0d
+		}
+		{
+			can_repeat: true
+			id: "6D243189DF4577F8"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "4C7F8195B9AD308F"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 600000"
+					id: "114AF71D87B99E84"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "34C4EFB836DA7C10"
+					title: "600k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "39BF76635932C418"
+				item: "cataclysm:black_steel_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			id: "74F33EDEF3011065"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 550000"
+					id: "28295E67CD7E359C"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "114014F2CE1811E4"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "0324EB617FC89FAB"
+					title: "550k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2F59319B70766B39"
+				item: "cataclysm:ancient_metal_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "4106CF480BE0D086"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 700000"
+					id: "3EC25D08F4114CC0"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "675082FE6421F656"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					icon: "createdeco:gold_coinstack"
+					id: "19F66E6EFD2DDE15"
+					title: "700k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "10403777C7911C4C"
+				item: "cataclysm:witherite_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -6.0d
+		}
+		{
+			can_repeat: true
+			id: "5031196973B81FBB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 3200000"
+					id: "06AB242AEF536285"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "05E5C96F5BD24B49"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "68574FE2EE58B7DF"
+					title: "3.2M"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "233E5F0285D8638D"
+				item: "cataclysm:cursium_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -6.5d
+		}
+		{
+			can_repeat: true
+			id: "3EC850BC29F0FE4C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 4000000"
+					id: "4CAB17F1D67FFE44"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "422067075133B9DA"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "2A766E534A185A87"
+					title: "4M"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 10L
+				id: "2C10CDD5A538BB78"
+				item: "cataclysm:ignitium_ingot"
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -5.5d
+		}
+		{
+			can_repeat: true
+			id: "2CF65BF2B0D921C3"
+			rewards: [
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "018EAF35E0C23B94"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 312000"
+					id: "13567E3BE5C06B0B"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "63DFA39D2E43CC74"
+					title: "31k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "2C906FB7457353A5"
+				item: {
+					Count: 1
+					id: "relics:spatial_sign"
+					tag: {
+						abilities: {
+							seal: {
+								points: 0
+								stats: {
+									time: 2.45007d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "47A2FC44425BE814"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 350000"
+					id: "1239CC8CDDFBA5D2"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "50B958A26567869C"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "3598CC8BB00CC7BB"
+					title: "35k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3536BCA3C5160673"
+				item: {
+					Count: 1
+					id: "relics:reflection_necklace"
+					tag: {
+						abilities: {
+							explode: {
+								points: 0
+								stats: {
+									capacity: 27.54336d
+									damage: 0.45149d
+									stun: 0.05543d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "7B94C47FB7310036"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 460000"
+					id: "33CD77BE7CCD7DC4"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "159BF8A36FF24ABC"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "375E4AC04FD251AF"
+					title: "46k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "58F6843E9524183E"
+				item: {
+					Count: 1
+					id: "relics:magma_walker"
+					tag: {
+						abilities: {
+							pace: {
+								points: 0
+								stats: {
+									time: 42.19786d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "7059F2F8F1217EB6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 380000"
+					id: "12DAE949495156B4"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "25A58BB386F220AC"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "6BE439A611F1B34D"
+					title: "38k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "218A77F06B82CB25"
+				item: {
+					Count: 1
+					id: "relics:aqua_walker"
+					tag: {
+						abilities: {
+							walking: {
+								points: 0
+								stats: {
+									time: 53.7448d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "464E0E039852E68A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 520000"
+					id: "40DDB6DC4B724EE1"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "711BFD1794A505FE"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "1689AF59203C3167"
+					title: "52k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3971D61A51ADF4A5"
+				item: {
+					Count: 1
+					id: "relics:midnight_robe"
+					tag: {
+						abilities: {
+							backstab: {
+								points: 0
+								stats: {
+									damage: 1.29785d
+									distance: 17.99651d
+								}
+							}
+							vanish: {
+								points: 0
+								stats: {
+									light: 1.96219d
+									speed: 0.27188d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "2CA4B3D123698D6B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 610000"
+					id: "3F2F64C5A037032E"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "4F4461CEB25E8860"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "2E5FED8F49D65F5C"
+					title: "61k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5FA71D280C1ACF0D"
+				item: {
+					Count: 1
+					id: "relics:drowned_belt"
+					tag: {
+						abilities: {
+							anchor: {
+								points: 0
+								stats: {
+									sinking: 4.73998d
+									slowness: 0.32551d
+								}
+							}
+							pressure: {
+								points: 0
+								stats: {
+									damage: 1.74694d
+								}
+							}
+							riptide: {
+								points: 0
+								stats: {
+									cooldown: 8.93144d
+								}
+							}
+							slots: {
+								points: 0
+								stats: {
+									talisman: 0.27887d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "3FD0C4437007EBF9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 320000"
+					id: "0EB1B184D4461DB0"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "61CB4C03132B7140"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "12D269C586073160"
+					title: "32k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "0107AFA5219C0EBB"
+				item: {
+					Count: 1
+					id: "relics:jellyfish_necklace"
+					tag: {
+						abilities: {
+							paralysis: {
+								points: 0
+								stats: {
+									duration: 1.06228d
+								}
+							}
+							shock: {
+								points: 0
+								stats: {
+									damage: 2.41333d
+								}
+								temp: {
+									ticking: 1b
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "4FBA20F846301920"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "798DAC6381BEF625"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 300000"
+					id: "2FDC7AEA279906B3"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "6899B13E7D02E926"
+					title: "30k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6DE8BBA0DF23ADBB"
+				item: {
+					Count: 1
+					id: "relics:hunter_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 1.8323d
+								}
+							}
+							training: {
+								points: 0
+								stats: {
+									damage: 1.52758d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "15B55479B6939189"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 390000"
+					id: "266441625FD86E87"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "273A499F49791D38"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "65487604D259F704"
+					title: "39k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "57123B274597EAEF"
+				item: {
+					Count: 1
+					id: "relics:rage_glove"
+					tag: {
+						abilities: {
+							phlebotomy: {
+								points: 0
+								stats: {
+									attack_speed: 0.00568d
+									heal: 1.2E-4d
+									movement_speed: 0.02071d
+								}
+							}
+							rage: {
+								points: 0
+								stats: {
+									dealt_damage: 0.02821d
+									duration: 2.58902d
+									incoming_damage: 0.03908d
+								}
+							}
+							spurt: {
+								points: 0
+								stats: {
+									cooldown: 16.11588d
+									damage: 0.1311d
+									distance: 6.94517d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "61F1785FFC287DAD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 220000"
+					id: "55503176101EB61A"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "67E1FC3842122DF0"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "4E1FE91739975EF0"
+					title: "22k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3ABB2D144FA20755"
+				item: {
+					Count: 1
+					id: "relics:ice_skates"
+					tag: {
+						abilities: {
+							ram: {
+								points: 0
+								stats: {
+									damage: 0.17152d
+								}
+							}
+							skating: {
+								points: 0
+								stats: {
+									duration: 31.18842d
+									speed: 0.01169d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "544DBF1929CD5075"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 230000"
+					id: "768B8D47A69528CB"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "037599099E69A9E7"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "5305E0E294CA180F"
+					title: "23k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "6E9E5ECED2A62085"
+				item: {
+					Count: 1
+					id: "relics:bastion_ring"
+					tag: {
+						abilities: {
+							trade: {
+								points: 0
+								stats: {
+									rolls: 0.26372d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "07F680D0268641CA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 300000"
+					id: "4392B6AB30835F99"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "7F9FF73DC0DB63E8"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "79AC7FE43597A005"
+					title: "30k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "51BB7E1B8C75FF16"
+				item: {
+					Count: 1
+					id: "relics:chorus_inhibitor"
+					tag: {
+						abilities: {
+							blink: {
+								points: 0
+								stats: {
+									cooldown: 6.36275d
+									distance: 29.3272d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "1AD3443E197A931D"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 370000"
+					id: "7028E230AFCC9F4A"
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "68D0C96E9666DFB3"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					icon: "createdeco:gold_coinstack"
+					id: "433742C25283FD64"
+					title: "37k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "03153C39946D95B4"
+				item: {
+					Count: 1
+					id: "relics:arrow_quiver"
+					tag: {
+						abilities: {
+							agility: {
+								points: 0
+								stats: {
+									modifier: 1.0d
+								}
+							}
+							leap: {
+								points: 0
+								stats: {
+									cooldown: 14.44145d
+									duration: 4.74289d
+									multiplier: 0.32975d
+								}
+							}
+							rain: {
+								points: 0
+								stats: {
+									delay: 0.79281d
+									duration: 10.32545d
+									radius: 4.84666d
+								}
+							}
+							receptacle: {
+								points: 0
+								stats: {
+									slots: 4.3934d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "1B4ACAED2B4B525B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 340000"
+					id: "64B10204A64D7595"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "41418F397BE16BB9"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					icon: "createdeco:gold_coinstack"
+					id: "6AECF507BF98EA70"
+					title: "34k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "076DE6B8B81909CB"
+				item: {
+					Count: 1
+					id: "relics:space_dissector"
+					tag: {
+						abilities: {
+							dissection: {
+								points: 0
+								stats: {
+									distance: 26.33045d
+									time: 8.37423d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "782165333C6E4BA7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 330000"
+					id: "31C2784E0A3620B6"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "69B61F6B19E95AD2"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "780B396BCA52FC4C"
+					title: "33k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "104837A06A4D826C"
+				item: {
+					Count: 1
+					id: "relics:holy_locket"
+					tag: {
+						abilities: {
+							steal: {
+								points: 0
+								stats: {
+									amount: 0.10705d
+									radius: 3.28108d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "4C394227A60B209E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 398000"
+					id: "4E467E019151B8FB"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "058B242F72B86903"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "43A227FC4812AE9D"
+					title: "39k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7475AD30B428F3AC"
+				item: {
+					Count: 1
+					id: "relics:enders_hand"
+					tag: {
+						abilities: {
+							swap: {
+								points: 0
+								stats: {
+									distance: 17.60211d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 2.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "25E9F9F50EE0285F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 235000"
+					id: "10B8FEDB757CAB6E"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "7862B79C5FB50EDF"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "2B613E3DBC8CC9AF"
+					title: "23k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: false
+				id: "0A8C8C641EF8D643"
+				item: {
+					Count: 1
+					id: "relics:elytra_booster"
+					tag: {
+						abilities: {
+							boost: {
+								points: 0
+								stats: {
+									capacity: 99.48045d
+									speed: 1.1714d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -4.0d
+			y: -3.5d
+		}
+		{
+			can_repeat: true
+			id: "35C9F62CCA9EF676"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 410000"
+					id: "61F8337EBCDE4224"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "1A1891F8E28BA13D"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "0A00CE44FBBB29B3"
+					title: "41k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "08217AA8449CCA29"
+				item: {
+					Count: 1
+					id: "relics:magic_mirror"
+					tag: {
+						abilities: {
+							teleport: {
+								points: 0
+								stats: {
+									cooldown: 78.94555d
+									distance: 846.94979d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -3.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "6A929BAD937565C7"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 320000"
+					id: "6105CDACD1EC8668"
+					silent: true
+					type: "command"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "511C821E38B0FD8A"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "10F369BAE27EAB3A"
+					title: "32k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "7E7C42BA576D86FE"
+				item: {
+					Count: 1
+					id: "relics:ice_breaker"
+					tag: {
+						abilities: {
+							impact: {
+								points: 0
+								stats: {
+									damage: 3.43667d
+									size: 2.8739d
+								}
+							}
+							sustainability: {
+								points: 0
+								stats: {
+									modifier: 0.73384d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.5d
+			y: -2.5d
+		}
+		{
+			can_repeat: true
+			id: "1C96F7195A6CE131"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 360000"
+					id: "3CC3E051865ABAF7"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "1EEB5ECF17026EF9"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "68367812A80FC347"
+					title: "36k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "45E37492674A5C2E"
+				item: {
+					Count: 1
+					id: "relics:blazing_flask"
+					tag: {
+						abilities: {
+							bonfire: {
+								points: 0
+								stats: {
+									height: 3.79736d
+									speed: 0.02859d
+									step: 1.08809d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -2.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "37A80A05DB620B2C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 400000"
+					id: "32A479E1887A5D7F"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "380F05EFB3F8AB32"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "552694F4137B1E87"
+					title: "40k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "5A33C58E27786FDD"
+				item: {
+					Count: 1
+					id: "relics:spore_sack"
+					tag: {
+						abilities: {
+							buffer: {
+								points: 0
+								stats: {
+									capacity: 2.29775d
+									chance: 0.05588d
+								}
+							}
+							explosion: {
+								points: 0
+								stats: {
+									size: 0.21433d
+								}
+							}
+							multiplying: {
+								points: 0
+								stats: {
+									amount: 0.12231d
+									chance: 0.12877d
+									size: 0.08745d
+								}
+							}
+							spore: {
+								points: 0
+								stats: {
+									cooldown: 11.06715d
+									damage: 0.25907d
+									duration: 3.86938d
+									size: 0.32441d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.5d
+			y: -0.5d
+		}
+		{
+			can_repeat: true
+			id: "24EA1D37B6E80B30"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 340000"
+					id: "7F633F494E25A329"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "530DD65148691088"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "4EAD0BEA88325A50"
+					title: "34k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "3DD95FB24712A56E"
+				item: {
+					Count: 1
+					id: "relics:roller_skates"
+					tag: {
+						abilities: {
+							skating: {
+								points: 0
+								stats: {
+									duration: 30.94878d
+									speed: 0.00269d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -2.0d
+			y: 0.5d
+		}
+		{
+			can_repeat: true
+			id: "7395FE9F8BB2F827"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 70000"
+					id: "7EB5BF4A9A55F0A2"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "6FD63374B3479B62"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "1618D08B69A19F5C"
+					title: "7k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "59870D0341C0C1F8"
+				item: {
+					Count: 1
+					id: "relics:leather_belt"
+					tag: {
+						abilities: {
+							slots: {
+								points: 0
+								stats: {
+									talisman: 2.8277d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "7F767812956EFF68"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 90000"
+					id: "5AA18795A0256B18"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "0275DA441B215CEC"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "enabled"
+					icon: "createdeco:gold_coinstack"
+					id: "341BC44CC74C0597"
+					title: "9k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "20E547E809F4E52D"
+				item: {
+					Count: 1
+					id: "relics:horse_flute"
+					tag: {
+						abilities: {
+							heal: {
+								points: 0
+								stats: {
+									amount: 0.08846d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -0.5d
+			y: 1.5d
+		}
+		{
+			can_repeat: true
+			id: "47CA0F658243DDE2"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 370000"
+					id: "51076A02994B4A6F"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "7F034316144E0922"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					icon: "createdeco:gold_coinstack"
+					id: "5F6E2482F25E7708"
+					title: "37k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "796AA40DAFF50BA7"
+				item: {
+					Count: 1
+					id: "relics:wool_mitten"
+					tag: {
+						abilities: {
+							mold: {
+								points: 0
+								stats: {
+									damage: 0.18435d
+									freeze: 1.33707d
+									size: 30.34808d
+									stun: 0.03445d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -1.0d
+			y: 2.5d
+		}
+		{
+			can_repeat: true
+			id: "5121F7A544D865D3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 480000"
+					id: "4CAD0A8A82F867A6"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "74F10C8776CB4C46"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "11F57AF8CDF4922A"
+					title: "48k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "281862E8581531D6"
+				item: {
+					Count: 1
+					id: "relics:amphibian_boot"
+					tag: {
+						abilities: {
+							gills: {
+								points: 0
+								stats: {
+									chance: 0.01829d
+								}
+							}
+							slipping: {
+								points: 0
+								stats: {
+									duration: 20.75835d
+									speed: 0.00714d
+								}
+							}
+							swimming: {
+								points: 0
+								stats: {
+									duration: 16.6883d
+									speed: 0.00848d
+								}
+							}
+						}
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: -3.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "5022C80F490101C1"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 320000"
+					id: "4EA53059DB44BFF5"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "243F4F88DCAE27CC"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "4D74EB7757D7DC7A"
+					title: "32k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				id: "500CCA74B3BCBB6A"
+				item: {
+					Count: 1
+					id: "relics:shadow_glaive"
+					tag: {
+						abilities: {
+							glaive: {
+								points: 0
+								stats: {
+									bounces: 4.28457d
+									damage: 2.42054d
+									radius: 3.59388d
+									recharge: 29.02701d
+								}
+							}
+							saw: {
+								points: 0
+								stats: {
+									damage: 1.43316d
+									speed: 17.15433d
+								}
+							}
+						}
+						charges: 8
+					}
+				}
+				only_from_crafting: true
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 1.0d
+			y: -1.5d
+		}
+		{
+			can_repeat: true
+			id: "0D167ED4F0C594D9"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/projecte emc add @s 340000"
+					id: "30F823CD64E8B517"
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					exclude_from_claim_all: true
+					id: "454786D9D13E8D20"
+					table_id: 2777594841000979005L
+					type: "loot"
+				}
+				{
+					auto: "no_toast"
+					icon: "createdeco:gold_coinstack"
+					id: "19B201E66C5AAE1B"
+					title: "34k"
+					type: "custom"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				id: "606C7991175CEEBE"
+				item: {
+					Count: 1
+					id: "relics:infinity_ham"
+					tag: {
+						abilities: {
+							autophagy: {
+								points: 0
+								stats: {
+									feed: 1.43208d
+								}
+							}
+							infusion: {
+								points: 0
+								stats: {
+									duration: 1.14558d
+								}
+							}
+						}
+						pieces: 10
+					}
+				}
+				task_screen_only: true
+				type: "item"
+			}]
+			x: 0.0d
+			y: 0.5d
+		}
+	]
+	subtitle: ["Do the task to recive currency"]
+	title: "Command Task"
+}
