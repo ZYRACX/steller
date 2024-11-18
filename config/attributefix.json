@@ -143,7 +143,7 @@
         "value": 1
       }
     },
-    "protection_pixel:dynamicentityperception": {
+    "cold_sweat:heat_resistance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -154,7 +154,7 @@
         "value": 1
       }
     },
-    "cold_sweat:heat_resistance": {
+    "protection_pixel:dynamicentityperception": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -726,7 +726,7 @@
         "value": 10000
       }
     },
-    "protection_pixel:arrowbarrier": {
+    "cold_sweat:cold_resistance": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -737,7 +737,7 @@
         "value": 1
       }
     },
-    "cold_sweat:cold_resistance": {
+    "protection_pixel:arrowbarrier": {
       "enabled": false,
       "min": {
         "default": 0,
@@ -759,17 +759,6 @@
         "value": 1000000
       }
     },
-    "protection_pixel:magneticattracttarget": {
-      "enabled": false,
-      "min": {
-        "default": 0,
-        "value": 0
-      },
-      "max": {
-        "default": 1,
-        "value": 1
-      }
-    },
     "cold_sweat:burning_point": {
       "enabled": false,
       "min": {
@@ -779,6 +768,17 @@
       "max": {
         "default": Infinity,
         "value": Infinity
+      }
+    },
+    "protection_pixel:magneticattracttarget": {
+      "enabled": false,
+      "min": {
+        "default": 0,
+        "value": 0
+      },
+      "max": {
+        "default": 1,
+        "value": 1
       }
     },
     "protection_pixel:healthconversion": {
