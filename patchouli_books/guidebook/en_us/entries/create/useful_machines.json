@@ -1,0 +1,49 @@
+{
+
+    "name": "Useful machines",
+    "icon": "create:encased_fan",
+    "category": "patchouli:create",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "Create has many useful machines that can help you build your structures and automate your processes. Here are some of the most commonly used ones:"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/encased_fan",
+            "text": "Encased Fan is one of the useful machines . it Blows air based on the rotation speed and direction. It can be used to push entities and item or used to wash items using diffrent mediums such as lava, water, soul fir for ores, foods and many other things"
+        },
+
+        {
+           "type": "crafting",
+           "recipe": "create:crafting/kinetics/hand_crank",
+           "text": "Hnd crank maybe one of the first machine you make from this company as it lets you manually input rotation into your manchines. it can be used as a kickstarter or if you dont really need a rotation machine in the said machine."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/cuckoo_clock",
+            "text": "Cuckoo clock is a machine which displays time using stress and rotation from the network it plays its tune every none and dusk"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/millstone",
+            "text": "millstone is a simple machine which is used to grind things rn it is used t make flour from wheat."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/mechanical_press",
+            "text": "mechanical press is a very useful machine which is used to press ingots into their sheet varient if it is on top of a belt or depo if it is on top of a basin it can be used to pack a number of items and it is also used in sequencian crafting."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/mechanical_mixer",
+            "text": "Just like its name suggest mechanical mixer is a machine which is used to mix different items as well as fluids together. it can be used to make any kind of shapeless recipe as well as well as mix fluidnad items and fluids and fluids to make potions"
+        }
+    ]
+}

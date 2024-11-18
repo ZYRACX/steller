@@ -1,0 +1,43 @@
+{
+    "name": "Temperature",
+    "icon": "cold_sweat:thermometer",
+    "category": "patchouli:environments",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "The temperature of the biome is a critical factor in your survival on the planet. if it reaches extreme it can even affect your health. There are many things that can be done to prevent it suck as wearing insulated armor or eating food which increase or decrease the temprature for given amount of time"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "cold_sweat:sewing_table",
+            "text": "Sewing table can be very useful as it can be used to insulate various armors and wereables with temprature effecting items such as wool and hides."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "cold_sweat:waterskin",
+            "text": "waterskin can be a lot useful they have use in thirst as well as can be used to heat yourself up or coll yourself down depending on the temprature of the water inside."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "cold_sweat:thermometer",
+            "text": "Thermometer is a very useful tool to check the temprature of the biome. It can be used to check the temprature of the biome and can be used to make a decision on wearing insulated armor or not."
+        },
+
+        {
+            "type":"crafting",
+            "recipe": "cold_sweat:hearth",
+            "text": "Hearth is a mid tier item which be used to heat up or cool down  your house/room using fuel source for heating and ice and water for cooling."
+        },
+
+        {
+            "type": "crafting",
+            "recipe":"cold_sweat:soulspring_lamp",
+            "text": "Soulspring lamp is one of the most useful item when triversing through neither. When fuled by soul sprout it lets you triverse nether with minimal efffort and not as much pressure from heat."
+        }
+    ]
+        
+}

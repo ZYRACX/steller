@@ -1,0 +1,29 @@
+{
+    "name": "Thirst",
+    "icon": "miners_delight:water_cup",
+    "category": "patchouli:environments",
+    "pages": [
+        
+        {
+            "type": "text",
+            "text": "Thirst is a major issue. If not taken care of it can cause suffocation and may stop you from healing. In this guide, we will discuss the different ways to stay hydrated in Minecraft."
+        },
+
+        {
+            "type": "text",
+            "text": "Water can be found in nature, rivers, ocean lakes and puddels. Water in nature is generally dirty and is very unsafe to eat and causes nausia. Water can also be obtained from some of the cooked food and drinks  and the water in those is generally safe to drink. Water can also be kept in clay bowl or terracotta bowl if you run out of watter bottles."
+        },
+
+        {
+            "type": "patchouli:smelting",
+            "recipe": "thirst:water_bottle_from_smelting_purified",
+            "text": "Water can also be heated to change its purity level each result is slightly better then before and to be fully Purified it needs to be cooked near 4 times"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "thirst:compat/create/sand_filter",
+            "text": "sand filter can also be used to automate the process of purifing water. if it is put in between pipes the passing water runs through the sand and becomes one level purified. water needs to run through it 4 times to be completly clean."
+        }
+    ]
+}
