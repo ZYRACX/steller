@@ -1,0 +1,24 @@
+{
+    "name": "Spoilage",
+    "icon": "minecraft:rotten_flesh",
+    "category": "patchouli:environments",
+    "pages": [
+
+        {
+            "type": "text",
+            "text":"In this world due to various environmental effects, your food can become spoiled. it can also freze and burn depending on the biome that you are in due to which preparing as much as you can is not recomended and you should only make as much as you need. Due to most edible food being food having spolage it has no emc values like raw fruts, vegetable, meat.it is recomended that you only make it when you need it. Some methods to help you are listed below:"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "salt:salt",
+            "text": "You can put salt in your food to make it salted and prevent it from spoiling.this can be applied to any food. You can get salt by boiling warer in culdrin with campfire below it or you can find it in dripstone caves."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "fiahi:food_pouch",
+            "text": "if you need a lot of food and dont want it to spoil, you can also make yourself a food pouch which prevents food from being spoiled. the only downside of it is that it has less inventory space then icebox or backpack."
+        }
+    ]
+}

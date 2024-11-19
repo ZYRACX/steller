@@ -1,0 +1,43 @@
+{
+    
+    "name": "Rotation machines",
+    "icon": "create:water_wheel",
+    "category": "patchouli:create",
+    "pages": [
+
+        {
+            "type": "text",
+            "text": "Rotation machines are a type of Create machine that can produce rotation as well as stress. Some of them are listed here:"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/water_wheel",
+            "text": "Water Wheel is one of the first rotation machines that you will make after unlocking the create company items. it uses water flowing from top to create rotation as well as stress which is 256  su or stress unit at maximum. and 32 times RPM"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/large_water_wheel",
+            "text": "Large Water Wheel is a more advanced version of the Water Wheel that can produce more rotation and stress. It uses water flowing from top to create rotation as well as stress which is 512 su or stress unit at maximum. But it makes 128 times RPM"
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/steam_engine",
+            "text": "Steam Engine is a mid tier multiblock rotation machine that uses steam to create rotation and stress. It requires water as fuel and heat to turn. It produces 1024 times RPM and 65536 su or stress unit at maximum."
+        },
+
+        {
+            "type": "crafting",
+            "recipe": "create:crafting/kinetics/rotation_speed_controller",
+            "text": "Rotation Speed Controller is a small machine that can be used to adjust the rotation speed of other machines. It can be used to increase or decrease the rotation speed of a machine provided if you have the stress capacity to do so. It can also be used to adjust the rotation speed of a machine that is not rotating at all."
+        },
+
+        {
+            "type": "crafting",
+            "recipe":"create_dd:crafting/kinetics/kinetic_motor",
+            "text": "its a small motor that is compact and can be used in your belts to move items. it has decent rotation but not a lot of stress capacity so it is not so useful outside of it"
+        }
+    ]
+}
