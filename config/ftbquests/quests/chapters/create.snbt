@@ -1,86 +1,284 @@
 {
+	autofocus_id: "6646FB00F2455250"
 	default_hide_dependency_lines: false
 	default_quest_shape: "gear"
 	filename: "create"
 	group: ""
-	id: "0E467862F102AD7D"
+	id: "4036D7D2878208A0"
 	order_index: 6
 	quest_links: [ ]
 	quests: [
 		{
-			id: "60D6E1E1779209BC"
+			id: "6646FB00F2455250"
 			rewards: [
 				{
-					id: "0F267C5A776C4E6E"
-					type: "xp"
-					xp: 12
+					auto: "invisible"
+					command: "/gamestage add @s starter_machine"
+					console: true
+					elevate_perms: true
+					id: "07F49784AACDB71B"
+					silent: true
+					type: "command"
 				}
 				{
-					auto: "invisible"
-					id: "36D2D7F4780C4224"
-					ignore_reward_blocking: true
-					stage: "create_early_machine"
-					type: "gamestage"
+					id: "5EFF8ACBC2531FD6"
+					type: "xp"
+					xp: 100
 				}
 			]
 			tasks: [{
-				count: 100L
-				id: "45B50D391A559102"
-				item: "create:andesite_alloy"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -1.5d
-		}
-		{
-			id: "06B385E2F9F237D2"
-			tasks: [{
-				id: "4506C6839120C42D"
-				item: "create:cogwheel"
-				type: "item"
-			}]
-			x: -2.0d
-			y: -3.0d
-		}
-		{
-			id: "00ACD845DBC86756"
-			tasks: [{
-				id: "64EB972DD6F63F50"
-				item: "create:large_cogwheel"
-				type: "item"
-			}]
-			x: -1.0d
-			y: -2.5d
-		}
-		{
-			id: "12CDA38A827D592B"
-			tasks: [{
-				id: "71B2688C20AD911C"
-				item: "create:gearbox"
-				type: "item"
-			}]
-			x: -0.5d
-			y: -1.5d
-		}
-		{
-			id: "2AF4080EC1A17E1E"
-			rewards: [{
-				auto: "invisible"
-				id: "1B87B44DCBBE2751"
-				ignore_reward_blocking: true
-				stage: "create_mid_machine"
-				type: "gamestage"
-			}]
-			tasks: [{
 				consume_items: true
-				count: 30L
-				id: "237CFD705F9204CA"
-				item: { Count: 10, id: "create:iron_sheet" }
+				count: 100L
+				id: "30212D0993472ADE"
+				item: { Count: 100, id: "create:andesite_alloy" }
 				task_screen_only: true
 				type: "item"
 			}]
-			x: 5.5d
-			y: -9.5d
+			x: -6.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "085E5A9E7BEE5686"
+			tasks: [
+				{
+					id: "05AEEB3670B00FEC"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_helmet"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "14368A42C12A01CC"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_chestplate"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07616F4851AEA7B5"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_leggings"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "4F42DA92E2785D7A"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_boots"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zinc Armor"
+			x: -6.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "796C4F3878518D02"
+			tasks: [
+				{
+					id: "740288492D75771B"
+					item: "create:vertical_gearbox"
+					type: "item"
+				}
+				{
+					id: "0D1401CE4E648213"
+					item: "create:gearbox"
+					type: "item"
+				}
+				{
+					id: "2D69E6BF6B8EC83F"
+					item: "create_connected:parallel_gearbox"
+					type: "item"
+				}
+				{
+					id: "483D4DD06B54D4A4"
+					item: "create_connected:vertical_parallel_gearbox"
+					type: "item"
+				}
+				{
+					id: "112688D84F8C5DF1"
+					item: "create_connected:six_way_gearbox"
+					type: "item"
+				}
+				{
+					id: "507C32A831DE0408"
+					item: "create_connected:vertical_six_way_gearbox"
+					type: "item"
+				}
+			]
+			title: "Gearboxes"
+			x: -4.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "12F9C4536FFB90DC"
+			tasks: [
+				{
+					id: "4D3D60B7EA5120A5"
+					item: "create:hand_crank"
+					type: "item"
+				}
+				{
+					id: "58E87CC1741D63B0"
+					item: "create_connected:large_crank_wheel"
+					type: "item"
+				}
+				{
+					id: "6666CB41D35E2B5F"
+					item: "create_connected:crank_wheel"
+					type: "item"
+				}
+			]
+			title: "Cranks"
+			x: -7.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "6B5BF7BDBE037B92"
+			tasks: [
+				{
+					id: "7F4B55D9046F305F"
+					item: "create:cogwheel"
+					type: "item"
+				}
+				{
+					id: "3CD039AAE8D64FB5"
+					item: "create:large_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5CA01AB550093B34"
+					item: "copycats:copycat_cogwheel"
+					type: "item"
+				}
+				{
+					id: "5C843FFD8E0618D1"
+					item: "copycats:copycat_large_cogwheel"
+					type: "item"
+				}
+			]
+			title: "Cogwheels "
+			x: -6.0d
+			y: -4.5d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "10898C7E906CAAA9"
+			tasks: [{
+				id: "4F3421CF7B53DA68"
+				item: "create:andesite_casing"
+				type: "item"
+			}]
+			x: -5.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "79DE127C2158FCEB"
+			tasks: [
+				{
+					id: "634C18E1E8F389FC"
+					item: "create:water_wheel"
+					type: "item"
+				}
+				{
+					id: "24FC05C14E5272FB"
+					item: "create:windmill_bearing"
+					type: "item"
+				}
+				{
+					id: "5638F37579718534"
+					item: "create:white_sail"
+					type: "item"
+				}
+				{
+					id: "3EF82D0A80C2AD3B"
+					item: "create:sail_frame"
+					type: "item"
+				}
+			]
+			title: "Power machine"
+			x: -5.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "76FB2C874F53B412"
+			tasks: [
+				{
+					id: "6D183FE8FC3BA584"
+					item: "create:schematicannon"
+					type: "item"
+				}
+				{
+					id: "01369EF87D4C9AC1"
+					item: "create:schematic_table"
+					type: "item"
+				}
+				{
+					id: "15FAB04541BC30A9"
+					item: "create:empty_schematic"
+					type: "item"
+				}
+				{
+					id: "1421D598C1C2F66F"
+					item: "create:schematic_and_quill"
+					type: "item"
+				}
+				{
+					id: "7D2775AC6D0ADEF1"
+					item: "create_pattern_schematics:empty_pattern_schematic"
+					type: "item"
+				}
+			]
+			title: "Schematics"
+			x: -7.0d
+			y: -4.0d
+		}
+		{
+			dependencies: ["6646FB00F2455250"]
+			id: "241C277011EB8283"
+			tasks: [
+				{
+					id: "0B4666402B4B53FD"
+					item: "create:mechanical_drill"
+					type: "item"
+				}
+				{
+					id: "67CB9C5AC40F146D"
+					item: "create:mechanical_saw"
+					type: "item"
+				}
+				{
+					id: "5F1EB4E87FA00F96"
+					item: "create:encased_fan"
+					type: "item"
+				}
+			]
+			title: "Useful Machine"
+			x: -7.0d
+			y: -2.0d
 		}
 	]
 	title: "Create"

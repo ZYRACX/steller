@@ -296,29 +296,6 @@
 			y: -16.0d
 		}
 		{
-			dependencies: [
-				"4526A684C2203CB3"
-				"5F320F3C3F4F7B2B"
-			]
-			hide_dependency_lines: true
-			hide_until_deps_complete: true
-			icon: "minecraft:ice"
-			id: "52D5B21DFB7AEB64"
-			rewards: [{
-				id: "4DF7B6815BD73FC2"
-				item: "minecraft:ice"
-				random_bonus: 63
-				type: "item"
-			}]
-			tasks: [{
-				id: "0630353DDFBE6B97"
-				title: "Ice"
-				type: "checkmark"
-			}]
-			x: -12.0d
-			y: -5.0d
-		}
-		{
 			disable_toast: true
 			id: "172C830B829FC154"
 			rewards: [{
@@ -340,28 +317,6 @@
 				type: "questsadditions:time"
 			}]
 			x: 3.0d
-			y: -22.5d
-		}
-		{
-			id: "4BB25FDBC2224B20"
-			rewards: [{
-				auto: "invisible"
-				command: "/starterkit give @s main"
-				elevate_perms: true
-				id: "3D60085FBCF46EF5"
-				silent: true
-				team_reward: false
-				type: "command"
-			}]
-			tasks: [{
-				disable_toast: true
-				elapsedTime: 5L
-				gameTime: "game"
-				id: "008F57FE352CA02A"
-				secret: true
-				type: "questsadditions:time"
-			}]
-			x: 4.0d
 			y: -22.5d
 		}
 	]
