@@ -21,6 +21,7 @@
 					type: "command"
 				}
 				{
+					auto: "enabled"
 					id: "5EFF8ACBC2531FD6"
 					type: "xp"
 					xp: 100
@@ -40,6 +41,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "085E5A9E7BEE5686"
+			rewards: [{
+				id: "29D76FCC1507CFB3"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "05AEEB3670B00FEC"
@@ -93,6 +99,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "796C4F3878518D02"
+			rewards: [{
+				id: "44EFE29295A8BED7"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "740288492D75771B"
@@ -132,6 +143,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "12F9C4536FFB90DC"
+			rewards: [{
+				id: "2C20B7F1E53D4D9E"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "4D3D60B7EA5120A5"
@@ -148,6 +164,11 @@
 					item: "create_connected:crank_wheel"
 					type: "item"
 				}
+				{
+					id: "7DD47D214D3DC7C4"
+					item: "create_dd:cog_crank"
+					type: "item"
+				}
 			]
 			title: "Cranks"
 			x: -7.5d
@@ -156,6 +177,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "6B5BF7BDBE037B92"
+			rewards: [{
+				id: "38DA858D0F402EEC"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "7F4B55D9046F305F"
@@ -185,6 +211,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "10898C7E906CAAA9"
+			rewards: [{
+				id: "7F698B439C7D4134"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [{
 				id: "4F3421CF7B53DA68"
 				item: "create:andesite_casing"
@@ -196,6 +227,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "79DE127C2158FCEB"
+			rewards: [{
+				id: "00187F1484D84215"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "634C18E1E8F389FC"
@@ -225,6 +261,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "76FB2C874F53B412"
+			rewards: [{
+				id: "162D6163A34F4AAB"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "6D183FE8FC3BA584"
@@ -259,6 +300,11 @@
 		{
 			dependencies: ["6646FB00F2455250"]
 			id: "241C277011EB8283"
+			rewards: [{
+				id: "75C2B7D16ED0F040"
+				type: "xp"
+				xp: 100
+			}]
 			tasks: [
 				{
 					id: "0B4666402B4B53FD"
@@ -279,6 +325,399 @@
 			title: "Useful Machine"
 			x: -7.0d
 			y: -2.0d
+		}
+		{
+			id: "73223B7896D0F888"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/gamestage add @s production_machine"
+					console: true
+					elevate_perms: true
+					exclude_from_claim_all: true
+					id: "24C750E2FC897F29"
+					silent: true
+					type: "command"
+				}
+				{
+					id: "5CAA187D37894C55"
+					type: "xp"
+					xp: 200
+				}
+			]
+			tasks: [{
+				count: 200L
+				id: "044004260513DD4D"
+				item: { Count: 200, id: "create:iron_sheet" }
+				type: "item"
+			}]
+			x: -0.5d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "11E133DE127FB968"
+			rewards: [{
+				id: "372DC0D5844A6FBF"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "4267B6E09DE6EFA2"
+					item: "create_connected:inverted_clutch"
+					type: "item"
+				}
+				{
+					id: "603169D0515EC5B1"
+					item: "create_connected:encased_chain_cogwheel"
+					type: "item"
+				}
+				{
+					id: "1F04613ABDC45ECF"
+					item: "create_connected:inverted_gearshift"
+					type: "item"
+				}
+				{
+					id: "210EA08DAFC65A1E"
+					item: "create_connected:shear_pin"
+					type: "item"
+				}
+				{
+					id: "364409E96BAF9423"
+					item: "create_connected:overstress_clutch"
+					type: "item"
+				}
+				{
+					id: "70B99A765D04C781"
+					item: "create_connected:centrifugal_clutch"
+					type: "item"
+				}
+				{
+					id: "5F4D6F959396CEE2"
+					item: "create_connected:freewheel_clutch"
+					type: "item"
+				}
+				{
+					id: "5B5E363B47989344"
+					item: "create_connected:brake"
+					type: "item"
+				}
+				{
+					id: "34BA5CE740F15DF8"
+					item: "create:clutch"
+					type: "item"
+				}
+				{
+					id: "60E6588F264BACFF"
+					item: "create:gearshift"
+					type: "item"
+				}
+				{
+					id: "2DEF0F6EC658F418"
+					item: "create:adjustable_chain_gearshift"
+					type: "item"
+				}
+				{
+					id: "568FD42950B0DA1F"
+					item: "create_dd:redstone_divider"
+					type: "item"
+				}
+			]
+			title: "Clutches and gear"
+			x: -0.5d
+			y: -1.5d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "7A7D0B6ED8DBA037"
+			rewards: [{
+				id: "0257FF4A1CC16A0A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "3B01C4B6B18D84AA"
+				item: "create:large_water_wheel"
+				type: "item"
+			}]
+			title: "Power Machine"
+			x: 1.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "658E61201336F9D6"
+			rewards: [{
+				id: "449EF6A9C0A66B0A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "3D786D57ABE47D13"
+					item: "create_connected:item_silo"
+					type: "item"
+				}
+				{
+					id: "0A342C1DBB049D60"
+					item: "create:millstone"
+					type: "item"
+				}
+				{
+					id: "02D18F9478860542"
+					item: "create:mechanical_mixer"
+					type: "item"
+				}
+				{
+					id: "21CCE4243EC83D53"
+					item: "create:basin"
+					type: "item"
+				}
+				{
+					id: "322C36CA4D4BCAA9"
+					item: "create:weighted_ejector"
+					type: "item"
+				}
+				{
+					id: "3DB256A80668349B"
+					item: "create:depot"
+					type: "item"
+				}
+				{
+					id: "2FD7CD10B888156B"
+					item: "create:chute"
+					type: "item"
+				}
+				{
+					id: "194C5C0C4FB399AF"
+					item: "create:speedometer"
+					type: "item"
+				}
+				{
+					id: "5D5E027D7463F5B1"
+					item: "create:stressometer"
+					type: "item"
+				}
+				{
+					id: "50454BDDFB5FD8FC"
+					item: "create:wooden_bracket"
+					type: "item"
+				}
+				{
+					id: "609F0CAE4436A750"
+					item: "create:metal_bracket"
+					type: "item"
+				}
+				{
+					id: "0BAA2B8EE068B1B8"
+					item: "create:item_vault"
+					type: "item"
+				}
+				{
+					id: "56B375AE15A668D4"
+					item: "create:andesite_funnel"
+					type: "item"
+				}
+				{
+					id: "50E169B0E0F6A765"
+					item: "create:andesite_tunnel"
+					type: "item"
+				}
+				{
+					id: "5CA8483F09EA1AF2"
+					item: "create:belt_connector"
+					type: "item"
+				}
+				{
+					id: "32E04139F2CAC8EF"
+					item: "create_dd:multimeter"
+					type: "item"
+				}
+			]
+			title: "Factory Machines"
+			x: -2.0d
+			y: -3.0d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "732D42D3DF705911"
+			rewards: [{
+				id: "3312F86C589C3BBC"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "6F7AEE26AB285B31"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_hoe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "07B635AEABA3392E"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_shovel"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "31DCD153E70B9AC5"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_sword"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "1A142598DD458835"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_axe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+				{
+					id: "18BB64F12F581B54"
+					item: {
+						Count: 1
+						id: "create_sa:zinc_pickaxe"
+						tag: {
+							Damage: 0
+						}
+					}
+					type: "item"
+				}
+			]
+			title: "Zinc Tool"
+			x: -0.5d
+			y: -4.5d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "3433763337347681"
+			rewards: [{
+				id: "3362620CEF10148A"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [
+				{
+					id: "732A5DCFE01CABE5"
+					item: "create:mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "02A0877E78783C7B"
+					item: "create:sticky_mechanical_piston"
+					type: "item"
+				}
+				{
+					id: "0F810202665527F2"
+					item: "create:piston_extension_pole"
+					type: "item"
+				}
+				{
+					id: "444DD48CD924E53F"
+					item: "create:mechanical_bearing"
+					type: "item"
+				}
+				{
+					id: "230FFA65C1A83D72"
+					item: "create:mechanical_harvester"
+					type: "item"
+				}
+				{
+					id: "2F10C97BD0AA9F7E"
+					item: "create:mechanical_plough"
+					type: "item"
+				}
+				{
+					id: "5F14A6C6BC00FABC"
+					item: "create:mechanical_roller"
+					type: "item"
+				}
+				{
+					id: "5EBE7B600DA0475B"
+					item: "create:redstone_contact"
+					type: "item"
+				}
+			]
+			title: "Moving Machines"
+			x: 0.5d
+			y: -2.0d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "16F8F6FEAD0CA63E"
+			rewards: [{
+				id: "7FF9C202FE8837E0"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "58989B9048E1DEBC"
+				item: "create:cuckoo_clock"
+				type: "item"
+			}]
+			x: 0.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "359A206900DC99A0"
+			rewards: [{
+				id: "455B8B1FB31A9176"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "31029D83E278FADF"
+				item: "create:brown_toolbox"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -4.0d
+		}
+		{
+			dependencies: ["73223B7896D0F888"]
+			id: "2C90FF818C0700E7"
+			rewards: [{
+				id: "784F4C614C261A35"
+				type: "xp"
+				xp: 100
+			}]
+			tasks: [{
+				id: "503BFF8A2D47EDAC"
+				item: "create:nozzle"
+				type: "item"
+			}]
+			x: -1.5d
+			y: -2.0d
+		}
+		{
+			id: "772B56CF479CF751"
+			tasks: [{
+				id: "192D3F58B11B01D4"
+				type: "custom"
+			}]
+			x: 3.0d
+			y: -3.0d
 		}
 	]
 	title: "Create"

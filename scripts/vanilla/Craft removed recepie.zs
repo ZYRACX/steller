@@ -131,6 +131,7 @@ craftingTable.remove(<item:projecte:gem_chestplate>);
 craftingTable.remove(<item:projecte:gem_leggings>);
 craftingTable.remove(<item:projecte:gem_boots>);
 craftingTable.remove(<item:projecte:arcana_ring>);
+craftingTable.remove(<item:create_dd:item_stockpile>);
 craftingTable.removeByName("betterwithminecolonies:minecolonies/coal_to_diamond");
 craftingTable.removeByName("betterwithminecolonies:create/stupid_chorus_fruit");
 craftingTable.removeByName("betterwithminecolonies:create/stupid_dragon_breath");
