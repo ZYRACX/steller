@@ -34,6 +34,8 @@
 	ProjectEIntegrationRecipeMapper = true
 	#Adds back and forth conversions of objects and their Tag variant. (EMC values assigned to tags will not behave properly if this mapper is disabled)
 	TagMapper = true
+	#Allows KubeJS ProjectE to function
+	KubeJSProjectE = true
 
 [CraftingMapper]
 
