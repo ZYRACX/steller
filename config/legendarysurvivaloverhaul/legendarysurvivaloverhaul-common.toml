@@ -50,9 +50,6 @@
 	# Each 64 blocks further from Y 64 will reduce player's temperature by this value.
 	#Range: -1000.0 ~ 1000.0
 	"Altitude Modifier" = -5.0
-	# Chance of the ferns to become a gold fern when grow mature.
-	#Range: 0.0 ~ 1.0
-	"Gold Fern Chance" = 0.01
 
 	[temperature.temperature-immunity]
 		# If enabled, players will be immune to temperature effects after death.

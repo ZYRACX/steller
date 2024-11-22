@@ -2,10 +2,6 @@ import mods.farmersdelight.CookingPot;
 import mods.farmersdelight.CookingPotRecipeBookTab;
 import crafttweaker.api.ingredient.IIngredient;
 
-<recipetype:farmersdelight:cooking>.addRecipe("cake_recipe", <item:minecraft:cake>, 
-      [<tag:items:forge:eggs>, <tag:items:forge:sugar>, <tag:items:forge:milk>, <tag:items:forge:milk>, <tag:items:forge:grain>], 
-        <constant:farmersdelight:cooking_pot_recipe_book_tab:meals>, <item:minecraft:air>, 200, 600);
-
 <recipetype:farmersdelight:cooking>.addRecipe("bison_burger_recipe", <item:alexsdelight:bison_burger>,
       [<tag:items:forge:salad_ingredients>, <item:farmersdelight:tomato>, <item:alexsdelight:bison_patty>, <item:minecraft:beetroot>], 
       <constant:farmersdelight:cooking_pot_recipe_book_tab:misc>, <item:minecraft:bread>, 20, 300);
